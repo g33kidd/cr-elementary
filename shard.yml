@@ -1,0 +1,20 @@
+name: elementary
+version: 0.1.0
+
+authors:
+  - Joshua Kidd <kidd.josh.343@gmail.com>
+
+targets:
+  elementary:
+    main: src/elementary.cr
+
+dependencies:
+  dotenv:
+    github: gdotdesign/cr-dotenv
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+
+crystal: 0.21.1
+
+license: MIT
